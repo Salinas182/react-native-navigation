@@ -21,7 +21,7 @@ export const SideMenuNavigator = () => {
     <Drawer.Navigator
       drawerContent={props => <CustomDrawerContent {...props} />}
       screenOptions={{
-        /* headerShown: false, */
+        headerShown: false,
         drawerType: windowDimensions.width > 720 ? 'permanent' : 'slide',
         drawerActiveBackgroundColor: globalColors.primary,
         drawerActiveTintColor: 'white',
